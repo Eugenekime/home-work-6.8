@@ -1,0 +1,90 @@
+@media (min-width: 769px) {
+  button {
+    cursor: pointer;
+    background-color: rgba(248, 248, 248, 1);
+  }
+
+  .header {
+    display: none;
+  }
+
+  .container__setting-and-search-for-1120 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 32px;
+    flex: 1 1 auto;
+    margin-right: 18px;
+
+  }
+
+  .setting-and-search-1120 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .label-button-for-1120 {
+    font-family: TT Lakes;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 24px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: right;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+
+  .main {
+    background-color: rgba(248, 248, 248, 1)
+  }
+
+  .title {
+    margin-top: 42px;
+  }
+
+  .aqua-stick {
+    margin-right: 32px;
+  }
+
+  .title__services-list {
+    margin-top: 10px;
+    margin-left: 32px;
+    margin-right: 18px;
+
+  }
+
+  .about-company {
+    margin-top: 32px;
+    flex-direction: row;
+  }
+
+  .about-company__text {
+    padding-left: 32px;
+  }
+
+  .about-company__readmore {
+    margin: 24px 0 24px 24px;
+  }
+
+  .about-company__logo {
+    min-width: 531px;
+    border-radius: 10px;
+    margin-right: 18px;
+  }
+
+
+
+  .about-company__text-for-768 {
+    display: block;
+    margin-top: 30px;
+    text-align: left;
+  }
+
+  .about-company__text-for-1120 {
+    display: block;
+  }
+}

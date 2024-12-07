@@ -1,0 +1,56 @@
+@media (max-width: 768px) and (min-width: 321px) {
+
+  .header__container {
+    gap: 16px;
+    padding: 0 32px 0 32px;
+  }
+
+  .header__container-for-768 {
+    display: flex;
+    justify-content: flex-end;
+    flex: 1 1 auto;
+    gap: 16px;
+  }
+
+  .main__container {
+    margin-right: 15px;
+  }
+
+  .title {
+    padding-top: 32px;
+  }
+
+  .aqua-stick {
+    margin-right: 24px;
+  }
+
+  .title__services-list {
+    margin-top: 32px;
+    margin-left: 16px;
+  }
+
+  .about-company {
+    margin-top: 32px;
+    flex-direction: row;
+
+  }
+
+  .about-company__text {
+    padding-left: 24px;
+  }
+
+  .about-company__text-for-768 {
+    display: block;
+    margin-top: 20px;
+    text-align: left;
+  }
+
+  .about-company__readmore {
+    margin: 24px 0 24px 10px;
+  }
+
+  .about-company__logo {
+    border-radius: 5px;
+  }
+
+}
